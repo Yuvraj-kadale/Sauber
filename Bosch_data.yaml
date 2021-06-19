@@ -1,0 +1,10 @@
+# Team Sauber
+
+train: ../Dataset/images/train/  # 128 images
+val: ../Dataset/images/val/  # 128 images
+
+# number of classes
+nc: 4
+
+# class names
+names: [ 'Furniture', 'Door', 'cable', 'cloth' ]
