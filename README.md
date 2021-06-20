@@ -23,7 +23,7 @@ pip install -qr requirements.txt  # install dependencies
 
 ## Training on Custom Data set
 
-The custom [`Dataset`](./Dataset) built contains 121 images. These same 121 images are used for both training and validation to verify our training pipeline is capable of overfitting. [Bosch_data.yaml](./yolov5/data/Bosch_data.yaml), shown below, is the dataset configuration file that defines 
+The custom [`Dataset`](./Dataset) built contains 121 images. These same 121 images are used for both training and validation to verify our training pipeline is capable of overfitting. [Bosch_data.yaml](./Bosch_data.yaml), shown below, is the dataset configuration file that defines 
 1. A path to a directory of training images (or path to a *.txt file with a list of training images) 
 2. The same for our validation images. 
 3. The number of classes. 
